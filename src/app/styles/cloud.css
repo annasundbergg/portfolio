@@ -1,0 +1,60 @@
+body {
+    color: rgb(var(--foreground-rgb));
+    background-color: rgb(199, 228, 251);
+    background: radial-gradient(circle, #03a9f4 0%, rgb(217 241 252) 100%);
+    width: 100%;
+}
+
+.float-css,
+.second-float-css,
+.third-float-css {
+    z-index: -1;
+    overflow: hidden;
+}
+
+.float-css {
+    animation: float-right-to-left 13s ease-in-out infinite;
+}
+
+.second-float-css {
+    animation: float-left-to-right 14s ease-in-out infinite;
+}
+
+.third-float-css {
+    bottom: 20rem;
+    right: 3rem;
+    animation: float-left-to-right 12s ease-in-out infinite;
+}
+
+.path {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 100;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes float-right-to-left {
+    0% {
+        transform: translateX(30vw);
+    }
+    100% {
+        transform: translateX(-90vw);
+    }
+}
+
+@keyframes float-left-to-right {
+    0% {
+        transform: translateX(-30vw);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
