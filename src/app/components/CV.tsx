@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "./Header";
 import Navbar from "./NavBar";
 import Footer from "./Footer";
+import Image from "next/image";
 
 export default function CV() {
     const [lang, setLang] = useState(false);
@@ -19,9 +20,21 @@ export default function CV() {
                         <button onClick={() => setLang(false)}>SWEDISH</button>
                     </div>
                     {!lang ? (
-                        <img src="/images/CV-swe.jpg" alt="" />
+                        <Image
+                            className="cv-img"
+                            src="/images/CV-swe.jpg"
+                            alt="CV in Swedish"
+                            width="500"
+                            height="700"
+                        />
                     ) : (
-                        <img src="/images/CV-eng.jpg" alt="" />
+                        <Image
+                            className="cv-img"
+                            src="/images/CV-eng.jpg"
+                            alt="CV in English"
+                            width="500"
+                            height="700"
+                        />
                     )}
                 </div>
             </div>
