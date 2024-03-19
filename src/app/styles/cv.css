@@ -5,6 +5,7 @@
 .cv-container {
     background-color: rgb(199, 228, 251);
     width: 100%;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +26,7 @@
 .lang-btn {
     display: flex;
     padding: 3rem 0 1rem 0;
+    color: white;
 }
 
 button {
