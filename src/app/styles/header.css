@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+    height: 10rem;
+    color: lightblue;
+    background-color: white;
+    background: linear-gradient(
+        to bottom,
+        rgba(254, 252, 252, 0),
+        rgb(199, 228, 251) 100%
+    );
+}
+
+.my-projects {
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+}
+
+@media screen and (min-width: 720px) {
+    .my-projects {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .my-projects {
+        font-size: 50px;
+    }
+}

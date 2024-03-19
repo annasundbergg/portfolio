@@ -16,9 +16,13 @@
     }
 }
 
-body {
+/* body {
     color: rgb(var(--foreground-rgb));
     background-color: rgb(199, 228, 251);
+} */
+
+.header {
+    background-color: white;
 }
 
 @layer utilities {

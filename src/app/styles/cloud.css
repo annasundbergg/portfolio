@@ -5,25 +5,32 @@ body {
     width: 100%;
 }
 
-.float-css,
-.second-float-css,
-.third-float-css {
+.first-cloud,
+.second-cloud,
+.third-cloud {
+    width: 600px;
+    height: 350px;
     z-index: -1;
     overflow: hidden;
+    position: absolute;
 }
 
-.float-css {
-    animation: float-right-to-left 13s ease-in-out infinite;
-}
-
-.second-float-css {
+.first-cloud {
+    left: 5rem;
+    top: 7rem;
     animation: float-left-to-right 14s ease-in-out infinite;
 }
 
-.third-float-css {
-    bottom: 20rem;
-    right: 3rem;
+.second-cloud {
+    left: 5rem;
+    top: 12rem;
     animation: float-left-to-right 12s ease-in-out infinite;
+}
+
+.third-cloud {
+    animation: float-right-to-left 13s ease-in-out infinite;
+    right: 6rem;
+    top: 12rem;
 }
 
 .path {
@@ -56,5 +63,23 @@ body {
     }
     100% {
         transform: translateX(100vw);
+    }
+}
+
+@media only screen and (max-width: 595px) {
+    .first-cloud {
+        right: 3rem;
+        top: 6rem;
+        height: 10rem;
+    }
+
+    .second-cloud {
+        left: 2rem;
+        top: 4rem;
+    }
+
+    .third-cloud {
+        left: 2rem;
+        top: 5rem;
     }
 }

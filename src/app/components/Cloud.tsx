@@ -246,17 +246,9 @@ export function Clouds() {
     return (
         <>
             <svg
-                viewBox="0 0 463 259"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                width="600"
-                height="380"
-                className="second-float-css"
-                style={{
-                    position: "absolute",
-                    left: "5rem",
-                    top: "7rem",
-                }}
+                className="first-cloud"
             >
                 <g filter="url(#filter0_d_19_99)">
                     <path
@@ -380,17 +372,9 @@ export function Clouds() {
             </svg>
 
             <svg
-                viewBox="0 0 463 259"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                width="600"
-                height=""
-                className="third-float-css"
-                style={{
-                    position: "absolute",
-                    left: "5rem",
-                    top: "12rem",
-                }}
+                className="second-cloud"
             >
                 <g filter="url(#filter0_d_24_12)">
                     <path
@@ -482,17 +466,9 @@ export function Clouds() {
             </svg>
 
             <svg
-                viewBox="0 0 600 300"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                width="600"
-                height=""
-                className="float-css"
-                style={{
-                    position: "absolute",
-                    right: "6rem",
-                    top: "12rem",
-                }}
+                className="third-cloud"
             >
                 <g filter="url(#filter0_d_28_58)">
                     <path
