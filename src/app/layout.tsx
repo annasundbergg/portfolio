@@ -7,6 +7,7 @@ const jost = Jost({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Anna",
     description: "My portfolio as a Front End Developer",
+    viewport: { width: "device-width", initialScale: 1 },
 };
 
 export default function RootLayout({
