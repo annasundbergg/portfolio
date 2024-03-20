@@ -39,10 +39,10 @@ export default function CV() {
                     )} */}
 
                     <div className="lang-btn">
-                        <a href="/cv-eng.pdf" target="_blank">
+                        <a className="lang" href="/cv-eng.pdf" target="_blank">
                             English
                         </a>
-                        <a href="/cv-swe.pdf" target="_blank">
+                        <a className="lang" href="/cv-swe.pdf" target="_blank">
                             Swedish
                         </a>
                     </div>

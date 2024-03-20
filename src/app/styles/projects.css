@@ -24,6 +24,11 @@
     justify-content: center;
 }
 
+.skills {
+    display: flex;
+    align-items: center;
+}
+
 .project-name,
 .project-description {
     color: white;
@@ -33,6 +38,17 @@
 .project-description {
     font-size: 15px;
     margin-bottom: 1rem;
+}
+
+.project-skills {
+    width: 80px;
+    margin-top: 1rem;
+}
+
+.project-skill2 {
+    width: 50px;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 .image-container {

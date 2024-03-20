@@ -1,9 +1,11 @@
 type PorjectProps = {
     name: string;
-    description: "Click on image to visit app";
+    description: string;
     link: string;
     image: string;
     alt: string;
+    skills?: string;
+    skill2?: string;
 };
 
 export default function ProjectItem(props: PorjectProps) {
@@ -15,6 +17,18 @@ export default function ProjectItem(props: PorjectProps) {
                     <p className="font-mono project-description">
                         {props.description}
                     </p>
+                    <div className="skills">
+                        <img
+                            className="project-skills"
+                            src={props.skills}
+                            alt=""
+                        />
+                        <img
+                            className="project-skill2"
+                            src={props.skill2}
+                            alt=""
+                        />
+                    </div>
                 </div>
 
                 <div>
