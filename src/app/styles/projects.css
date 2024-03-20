@@ -64,3 +64,51 @@
     transition: 0.5s ease;
     opacity: 1;
 }
+
+@media only screen and (max-width: 595px) {
+    .title > h1 {
+        font-size: 15px;
+    }
+
+    .title > p {
+        font-size: 7px;
+    }
+
+    .project-container {
+        flex-direction: column;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-img {
+        width: 45%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .title > h1 {
+        font-size: 20px;
+    }
+
+    .title > p {
+        font-size: 10px;
+    }
+
+    .project-container {
+        flex-direction: column;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-img {
+        width: 60%;
+        margin: auto;
+    }
+}
