@@ -2,7 +2,12 @@ body {
     /* color: rgb(var(--foreground-rgb));
     background-color: rgb(199, 228, 251); */
     background: radial-gradient(circle, #03a9f4 0%, rgb(217 241 252) 100%);
-    width: 100%;
+    overflow-x: hidden;
+}
+
+.clouds {
+    display: flex;
+    justify-content: space-around;
 }
 
 .first-cloud,
@@ -11,75 +16,57 @@ body {
     width: 600px;
     height: 350px;
     z-index: -1;
-    overflow: hidden;
     position: absolute;
 }
 
 .first-cloud {
-    left: 5rem;
-    top: 7rem;
     animation: float-left-to-right 14s ease-in-out infinite;
+    margin-top: 35rem;
 }
 
 .second-cloud {
-    left: 5rem;
-    top: 12rem;
     animation: float-left-to-right 12s ease-in-out infinite;
 }
 
 .third-cloud {
     animation: float-right-to-left 13s ease-in-out infinite;
-    right: 6rem;
-    top: 12rem;
-}
-
-.path {
-    stroke-dasharray: 100;
-    stroke-dashoffset: 1000;
-    animation: dash 5s linear alternate infinite;
-}
-
-@keyframes dash {
-    from {
-        stroke-dashoffset: 100;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
+    margin-top: 13rem;
 }
 
 @keyframes float-right-to-left {
     0% {
-        transform: translateX(30vw);
+        transform: translateX(65vw);
     }
     100% {
-        transform: translateX(-90vw);
+        transform: translateX(-60vw);
     }
 }
 
 @keyframes float-left-to-right {
     0% {
-        transform: translateX(-30vw);
+        transform: translateX(-60vw);
     }
     100% {
-        transform: translateX(100vw);
+        transform: translateX(65vw);
     }
 }
 
 @media only screen and (max-width: 595px) {
-    .first-cloud {
-        right: 3rem;
-        top: 6rem;
-        height: 10rem;
+    @keyframes float-right-to-left {
+        0% {
+            transform: translateX(90vw);
+        }
+        100% {
+            transform: translateX(-90vw);
+        }
     }
 
-    .second-cloud {
-        left: 2rem;
-        top: 4rem;
-    }
-
-    .third-cloud {
-        left: 2rem;
-        top: 5rem;
+    @keyframes float-left-to-right {
+        0% {
+            transform: translateX(-90vw);
+        }
+        100% {
+            transform: translateX(90vw);
+        }
     }
 }

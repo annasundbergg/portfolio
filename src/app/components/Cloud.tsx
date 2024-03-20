@@ -39,7 +39,7 @@ export function Cloud() {
 
     return (
         <>
-            <div className="flex items-center justify-center rounded-lg bg-transparent">
+            <div className="clouds">
                 <svg
                     ref={svgRef}
                     width="600"

@@ -22,6 +22,21 @@ export default function ProjectList() {
                 />
 
                 <ProjectItem
+                    name="Responsive Portfolio"
+                    description={description}
+                    link="https://annasundbergg.github.io/FE22-html-slutprojekt-anna-sundberg/"
+                    image="/images/portfolio.png"
+                    alt="Image of project Responsive Portfolio"
+                ></ProjectItem>
+
+                <ProjectItem
+                    name="Tamagotchi"
+                    description={description}
+                    link="https://annasundbergg.github.io/FE22-js2-mp2-anna-sundberg/"
+                    image="/images/tamagotchi.png"
+                    alt="Image of project Tamagotchi"
+                />
+                <ProjectItem
                     name="RESTful Flickr"
                     description={description}
                     link="https://annasundbergg.github.io/FE22-js1-slutprojekt-anna-sundberg/"
@@ -46,14 +61,6 @@ export default function ProjectList() {
                 />
 
                 <ProjectItem
-                    name="Tamagotchi"
-                    description={description}
-                    link="https://annasundbergg.github.io/FE22-js2-mp2-anna-sundberg/"
-                    image="/images/tamagotchi.png"
-                    alt="Image of project Tamagotchi"
-                />
-
-                <ProjectItem
                     name="Weather App"
                     description={description}
                     link="https://signelindstrom.github.io/vsc-mp1-grupp3/"
@@ -75,13 +82,6 @@ export default function ProjectList() {
                     image="/images/fruit-shop.png"
                     alt="Image of project Web Shop"
                 />
-                <ProjectItem
-                    name="Responsive Portfolio"
-                    description={description}
-                    link="https://annasundbergg.github.io/FE22-html-slutprojekt-anna-sundberg/"
-                    image="/images/portfolio.png"
-                    alt="Image of project Responsive Portfolio"
-                ></ProjectItem>
             </div>
 
             <Footer></Footer>
