@@ -32,6 +32,7 @@
 
 .project-description {
     font-size: 15px;
+    margin-bottom: 1rem;
 }
 
 .image-container {
@@ -68,7 +69,7 @@
 @media only screen and (max-width: 595px) {
     .project-img,
     .title {
-        width: 500px;
+        width: 300px;
     }
 
     .title > h1 {
@@ -113,7 +114,7 @@
     }
 
     .project-img {
-        width: 60%;
+        width: 100%;
         margin: auto;
     }
 }

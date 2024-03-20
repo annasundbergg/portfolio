@@ -5,6 +5,7 @@ export default function Footer() {
         <>
             <footer>
                 <a
+                    className="footer-link"
                     href="https://www.linkedin.com/in/sundberganna"
                     target="_blank"
                 >
@@ -15,7 +16,11 @@ export default function Footer() {
                     ></img>
                 </a>
 
-                <a href="https://github.com/annasundbergg" target="_blank">
+                <a
+                    className="footer-link"
+                    href="https://github.com/annasundbergg"
+                    target="_blank"
+                >
                     <img
                         className="github"
                         src="/github.png"
