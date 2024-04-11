@@ -4,6 +4,7 @@ type PorjectProps = {
     link: string;
     image: string;
     alt: string;
+    skillsArr?: string[];
     skills?: string;
     skill2?: string;
 };
@@ -17,7 +18,31 @@ export default function ProjectItem(props: PorjectProps) {
                     <p className="font-mono project-description">
                         {props.description}
                     </p>
-                    <div className="skills">
+                    {/* <div className="skills-array">
+                        {props.skillsArr?.map((skill, index) => (
+                            <img
+                                key={index}
+                                src={skill}
+                                alt=""
+                                width={60}
+                                className={`skill-${index}`}
+                            />
+                        ))}
+                    </div> */}
+                    {props.skillsArr ? (
+                        <div
+                            className={`${
+                                props.skillsArr.length > 5
+                                    ? "skills-array-text"
+                                    : "skills-arr"
+                            }`}
+                        >
+                            {props.skillsArr?.map((skill, index) => (
+                                <p key={index}>{skill}</p>
+                            ))}
+                        </div>
+                    ) : null}
+                    {/* <div className="skills">
                         <img
                             className="project-skills"
                             src={props.skills}
@@ -28,7 +53,7 @@ export default function ProjectItem(props: PorjectProps) {
                             src={props.skill2}
                             alt=""
                         />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div>

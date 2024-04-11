@@ -17,7 +17,19 @@ export default function ProjectList() {
                     link="https://front-end-v2xut6a4jq-lz.a.run.app/"
                     image="/images/movierater.png"
                     alt="image of project Movierater"
-                    skills=""
+                    // skillsArr={["/htmlcss.png", "/1174965.png", "/gcp.png"]}
+                    skillsArr={[
+                        "CSS",
+                        "Typescript",
+                        "React",
+                        "Node.js",
+                        "Express.js",
+                        "Vite",
+                        "Google Cloud Platform",
+                        "Microsoft Entra ID",
+                        "Docker",
+                        "CI/CD",
+                    ]}
                 />
 
                 <ProjectItem
@@ -26,8 +38,7 @@ export default function ProjectList() {
                     link="https://annasundbergg.github.io/FE22-html-slutprojekt-anna-sundberg/"
                     image="/images/portfolio.png"
                     alt="Image of project Responsive Portfolio"
-                    skills="/htmlcss.png"
-                    skill2="/bootstrap.png"
+                    skillsArr={["HTML", "CSS"]}
                 ></ProjectItem>
 
                 <ProjectItem
@@ -36,6 +47,7 @@ export default function ProjectList() {
                     link="https://annasundbergg.github.io/FE22-js2-mp2-anna-sundberg/"
                     image="/images/tamagotchi.png"
                     alt="Image of project Tamagotchi"
+                    skillsArr={["HTML", "CSS", "Javscript"]}
                 />
                 <ProjectItem
                     name="RESTful Flickr"
@@ -43,6 +55,13 @@ export default function ProjectList() {
                     link="https://annasundbergg.github.io/FE22-js1-slutprojekt-anna-sundberg/"
                     image="/images/flickr.png"
                     alt="Image of project RESTful Flickr"
+                    skillsArr={[
+                        "HTML",
+                        "CSS",
+                        "Javscript",
+                        "RESTful API",
+                        "anime.js",
+                    ]}
                 />
 
                 <ProjectItem

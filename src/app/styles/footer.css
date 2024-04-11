@@ -1,12 +1,10 @@
 footer {
-    background-color: rgb(199, 228, 251);
     background: linear-gradient(to top, white, rgb(199, 228, 251) 100%);
     text-align: center;
-    padding-bottom: 20px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 100px;
 }
 
 .footer-link {
