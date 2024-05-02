@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="flex">
+      <div className="flex sm:overflow-hidden">
         <div className="w-[auto] flex flex-col container ml-14 sm:ml-3 sm:gap-6 2xl:ml-[25rem]">
           <div className="flex w-80">
             <h1
