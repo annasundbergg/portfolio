@@ -17,7 +17,7 @@ export default function Home() {
                 fontUbuntu.variable
               )}
             >
-              Hello, I'm Anna
+              Hello, I&apos;m Anna
             </h1>
           </div>
           <div className="flex flex-col my-8 sm:leading-[40px] md:leading-[80px] xl:leading-[120px]">

@@ -114,7 +114,7 @@ export default function CVpage() {
                 developing grew as I saw what impact the user experience of our
                 applications had on the customer satisfaction. My curiousity for
                 the world of tech outgrew my interest for physiotherapy, I
-                discontinued my studies as a physio and now here I am. I've
+                discontinued my studies as a physio and now here I am. I&apos;ve
                 become a passionate frontend developer ready to take on new
                 adventures and challanges.
               </p>

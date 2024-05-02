@@ -19,7 +19,7 @@ export function CarouselPlugin() {
 
   return (
     <div className="">
-      <Carousel
+      {/* <Carousel
         plugins={[plugin.current]}
         className="w-[600px]"
         onMouseEnter={plugin.current.stop}
@@ -30,10 +30,7 @@ export function CarouselPlugin() {
             <CarouselItem>
               <div className="p-1">
                 <Card>
-                  <CardContent
-                    key={img.src}
-                    className="flex h-[600px] items-center justify-center p-6"
-                  >
+                  <CardContent className="flex h-[600px] items-center justify-center p-6">
                     <Image
                       src={img.src}
                       alt={img.alt}
@@ -48,7 +45,7 @@ export function CarouselPlugin() {
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }
