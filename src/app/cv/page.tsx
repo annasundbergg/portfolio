@@ -28,7 +28,7 @@ export default function CVpage() {
             </h1>
             <Image
               className="rounded-[500px] md:w-[400px] lg:w-[400px] xl:w-[400px] 2xl:w-1/2 "
-              src={"/Anna Sundberg_2.jpg"}
+              src={"/AnnaSundberg.jpg"}
               width={600}
               height={600}
               alt="Photo of Anna"
