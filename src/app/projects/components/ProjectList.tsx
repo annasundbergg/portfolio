@@ -1,18 +1,10 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { fontTitanOne, fontUbuntu } from "@/lib/fonts";
-import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
+import { Project } from "@/types/project";
+import Image from "next/image";
 import Link from "next/link";
-
-type props = {
-  title: string;
-  description: string;
-  link: string;
-  github?: string;
-  image: { src: string; alt: string; width: number; height: number };
-  skills: string[];
-};
 
 export default function ProjectList({
   title,
@@ -21,7 +13,7 @@ export default function ProjectList({
   github,
   image,
   skills,
-}: props) {
+}: Project) {
   return (
     <>
       {/* CONTAINER  */}
@@ -59,7 +51,7 @@ export default function ProjectList({
                     {skills &&
                       skills.map((skill, index) => (
                         <div
-                          key={index} // You can use index as the key if skills are unique
+                          key={index}
                           className="rounded p-2 text-sm cursor-pointer bg-[#D55353] text-orange-100 hover:bg-orange-100 hover:text-[#D55353]"
                         >
                           {skill}
