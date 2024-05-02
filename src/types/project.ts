@@ -1,11 +1,10 @@
-import { HeartIcon } from "lucide-react";
-
 export type Project = {
     title: string;
     description: string;
     link: string;
-    image: object;
-    alt: string;
+    github?: string;
+    image: { src: string; alt: string; width: number; height: number };
+    skills: string[];
 }
 
 export const projectImgs = [
@@ -86,8 +85,6 @@ export const projectItems = [
         skills: ["HTML", "CSS", "JavaScript", "OOP"]
 
     },
-
-
     {
         title: "Countries",
         description: "The project, designed for learning API integration, JSON parsing, and asynchronous JavaScript with fetch and promises, utilizes REST Countries API version 3 (Restcountry v3). Upon user search for a language, it displays official name, capital, population, and flag image for matching countries, highlighting the one with the highest population.",
@@ -100,7 +97,19 @@ export const projectItems = [
             height: 400
         },
         skills: ["RESTful API", "CSS", "JavaScript"]
-
+    },
+    {
+        title: "My Portfolio",
+        description: "This project is built with Next.js, Typescript and Tailwind. It is hosted on Google Cloud Platform.",
+        link: "https://annasundberg.se/",
+        github: "https://github.com/annasundbergg/portfolio",
+        image: {
+            src: "/portfolio.png",
+            alt: "image of project Portfolio",
+            width: 100,
+            height: 300
+        },
+        skills: ["Next.js", "Tailwind CSS", "Typescript", "Google Cloud Platform"]
     },
 ];
 
