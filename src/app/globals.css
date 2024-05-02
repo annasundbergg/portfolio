@@ -2,31 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"); */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@layer base {
+  /* body {
+    background: radial-gradient(
+      circle,
+      rgb(246, 159, 88) 50%,
+      rgb(243, 222, 210) 100%
+    );
+  } */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  /* background-color: rgb(199, 228, 251); */
-}
-
-.header {
-  background-color: white;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  /* @font-face {
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/public/Jost/Jost-VariableFont_wght.ttf");
+  } */
 }

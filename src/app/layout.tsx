@@ -1,22 +1,33 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Jost } from "next/font/google";
-
-const jost = Jost({ subsets: ["latin"] });
+import { cn } from "@/lib/utils";
+import { fontJost } from "@/lib/fonts";
+import Header from "./components/Header";
 
 export const metadata: Metadata = {
-    title: "Anna",
-    description: "My portfolio as a Front End Developer",
+  title: "Anna",
+  description: "My portfolio as a Front End Developer",
 };
 
 export default function RootLayout({
-    children,
+  children,
 }: Readonly<{
-    children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body className={jost.className}>{children}</body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body
+        className={cn(
+          "font-sans min-h-screen flex flex-col bg-gradient-to-tl from-orange-100 via-pink-50 to-orange-100",
+          fontJost.variable
+        )}
+      >
+        <Header />
+
+        <main className="flex flex-1 flex-col sm:mt-4 md:mt-11">
+          {children}
+        </main>
+      </body>
+    </html>
+  );
 }

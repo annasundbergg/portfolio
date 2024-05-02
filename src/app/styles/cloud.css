@@ -1,14 +1,17 @@
-body {
-  /* color: rgb(var(--foreground-rgb));
-    background-color: rgb(199, 228, 251); */
-  background: radial-gradient(circle, #03a9f4 0%, rgb(217 241 252) 100%);
+/* body {
+  background-color: rgb(199, 228, 251);
+  background: radial-gradient(
+    circle,
+    rgb(88 176 246) 0%,
+    rgb(217 241 252) 100%
+  );
   overflow-x: hidden;
-}
+} */
 
-.clouds {
+/* .clouds {
   display: flex;
   justify-content: space-around;
-}
+} */
 
 .first-cloud,
 .second-cloud,
