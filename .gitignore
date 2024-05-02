@@ -15,7 +15,7 @@
 
 # production
 /build
-/app/NotInUse
+src/app/NotInUse
 
 # misc
 .DS_Store
