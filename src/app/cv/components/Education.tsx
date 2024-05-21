@@ -21,7 +21,7 @@ export const Education = () => {
           <div className="sm:p-4 md:p-12 sm:pl-4 md:pl-20 2xl:pl-36 sm:w-full md:w-1/3 ">
             <h1 className="font-bold text-base">Frontend Developer</h1>
             <p>Grit Academy - Malmö</p>
-            <p>2022-2024</p>
+            <p>2022 - 2024</p>
           </div>
           <div className="flex flex-col gap-12 justify-center w-2/3 sm:w-full sm:pl-4">
             <p

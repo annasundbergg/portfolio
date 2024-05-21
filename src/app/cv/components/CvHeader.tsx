@@ -6,7 +6,7 @@ import Image from "next/image";
 export const CVHeader = () => {
   return (
     <>
-      <div className="flex w-1/2 mb-6 p-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 justify-center items-center gap-24 sm:gap-4">
+      <div className="flex w-1/2 mb-6 p-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 justify-center items-center sm:gap-4 md:gap-24">
         <h1
           className={cn(
             "font-mono sm:text-[40px] text-[#D55353] mt-8 sm:leading-[50px] md:text-[90px] md:leading-[90px]",
@@ -16,8 +16,7 @@ export const CVHeader = () => {
           Anna Sundberg
         </h1>
         <Image
-          unoptimized
-          className="rounded-[500px] md:w-[400px] lg:w-[400px] xl:w-[400px] 2xl:w-1/2 "
+          className="rounded-[500px] sm:w-[100px] md:w-[400px] lg:w-[400px] xl:w-[400px] 2xl:w-1/2 "
           src={"/annasundberg.jpg"}
           width={600}
           height={600}

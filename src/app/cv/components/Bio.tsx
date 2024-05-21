@@ -4,7 +4,7 @@ import { fontUbuntu } from "@/lib/fonts";
 export const Bio = () => {
   return (
     <>
-      <div className="flex justify-center items-center text-center sm:text-sm">
+      <div className="flex justify-center items-center text-center sm:text-sm md:text-base">
         <p
           className={cn(
             "font-serif text-[#967373] sm:w-full md:w-2/3 md:y-5 2xl:w-1/2",
