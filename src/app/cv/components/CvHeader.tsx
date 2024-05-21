@@ -16,7 +16,7 @@ export const CVHeader = () => {
         </h1>
         <Image
           className="rounded-[500px] sm:w-[100px] md:w-[400px] lg:w-[400px] xl:w-[400px] 2xl:w-1/2 "
-          src={"/annas.jpg"}
+          src={"/annasundberg2.jpg"}
           width={600}
           height={600}
           alt="Photo of Anna"
