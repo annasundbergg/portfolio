@@ -53,7 +53,7 @@ export const projectItems = [
             width: 600,
             height: 400
         },
-        skills: ["React", "Typescript", "Vite", "Express.js", "Node.js", "GCP", "CI/CD"]
+        skills: ["React", "Typescript", "Express.js", "Node.js", "GCP", "CI/CD"]
 
     },
 
