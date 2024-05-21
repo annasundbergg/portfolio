@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "font-sans min-h-screen flex flex-col bg-gradient-to-tl from-orange-100 via-pink-50 to-orange-100",
+          "font-sans min-h-screen sm:w-screen sm:h-screen flex flex-col bg-gradient-to-tl from-orange-100 via-pink-50 to-orange-100",
           fontJost.variable
         )}
       >
