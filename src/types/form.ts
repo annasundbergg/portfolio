@@ -26,3 +26,4 @@ export const MessageFormActionInputSchema: z.ZodSchema<MessageFormActionInput> =
         email: z.string(),
         message: z.string(),
     });
+
