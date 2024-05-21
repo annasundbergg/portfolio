@@ -6,7 +6,7 @@ import {
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 
 export const InfoBar = () => {
@@ -49,16 +49,28 @@ export const InfoBar = () => {
           </p>
         </div>
         <div className="flex justify-center items-center gap-2">
-          <Link
-            href={"https://linkedin.com/in/sundberganna"}
-            className={cn("font-serif text-[#D55353]", fontUbuntu.variable)}
-          >
-            <FontAwesomeIcon
-              className="sm:w-2 md:w-5 "
-              icon={faLinkedin}
-              color="#D55353"
-            ></FontAwesomeIcon>
-          </Link>
+          <div className="flex sm:gap-4 md:gap-16">
+            <Link
+              href={"https://linkedin.com/in/sundberganna"}
+              className={cn("font-serif text-[#D55353]", fontUbuntu.variable)}
+            >
+              <FontAwesomeIcon
+                className="w-5"
+                icon={faLinkedin}
+                color="#D55353"
+              ></FontAwesomeIcon>
+            </Link>
+            <Link
+              href={"https://github.com/annasundbergg"}
+              className={cn("font-serif text-[#D55353]", fontUbuntu.variable)}
+            >
+              <FontAwesomeIcon
+                className="w-5"
+                icon={faGithub}
+                color="#D55353"
+              ></FontAwesomeIcon>
+            </Link>
+          </div>
         </div>
       </div>
     </>
