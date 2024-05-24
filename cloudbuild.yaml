@@ -34,3 +34,5 @@ steps:
       - "--set-secrets=MY_EMAIL=MY_EMAIL:latest"
       - "--set-secrets=MY_PASSWORD=MY_PASSWORD:latest"
     dir: "portfolio"
+options:
+  logging: CLOUD_LOGGING_ONLY
