@@ -31,5 +31,6 @@ steps:
       - "europe-west1-docker.pkg.dev/portfolio-417115/cloud-run-source-deploy/portfolio"
       - "--region"
       - "europe-west1"
-      - "--update-secrets=MY_EMAIL=MY_EMAIL:1,MY_PASSWORD=MY_PASSWORD:1"
+      - "--set-secrets=MY_EMAIL=MY_EMAIL:latest"
+      - "--set-secrets=MY_PASSWORD=MY_PASSWORD:latest"
     dir: "portfolio"
