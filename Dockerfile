@@ -1,7 +1,7 @@
 FROM node:20-buster
-RUN mkdir /
-COPY package.json /
-WORKDIR /
+RUN mkdir /app
+COPY package.json /app/
+WORKDIR /app
 COPY . ./
 
 ENV APP_URL=https://www.annasundberg.se
