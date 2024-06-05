@@ -1,10 +1,10 @@
 steps:
   - name: "gcr.io/cloud-builders/npm"
     args: ["install"]
-    dir: "portfolio"
+
   - name: "gcr.io/cloud-builders/npm"
     args: ["run", "build"]
-    dir: "portfolio"
+
   - name: "gcr.io/cloud-builders/docker"
     args:
       [
@@ -13,14 +13,14 @@ steps:
         "europe-west1-docker.pkg.dev/portfolio-417115/cloud-run-source-deploy/portfolio",
         ".",
       ]
-    dir: "portfolio"
+
   - name: "gcr.io/cloud-builders/docker"
     args:
       [
         "push",
         "europe-west1-docker.pkg.dev/portfolio-417115/cloud-run-source-deploy/portfolio",
       ]
-    dir: "portfolio"
+
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
     entrypoint: gcloud
     args:
@@ -33,6 +33,6 @@ steps:
       - "europe-west1"
       - "--set-secrets=MY_EMAIL=MY_EMAIL:latest"
       - "--set-secrets=MY_PASSWORD=MY_PASSWORD:latest"
-    dir: "portfolio"
+
 options:
   logging: CLOUD_LOGGING_ONLY
