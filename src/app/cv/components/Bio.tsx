@@ -18,7 +18,7 @@ export const Bio = () => {
           on the customer satisfaction. My curiousity for the world of tech
           outgrew my interest for physiotherapy, I discontinued my studies as a
           physio and now here I am. I&apos;ve become a passionate frontend
-          developer ready to take on new adventures and challanges.
+          developer ready to take on new adventures and challenges.
         </p>
       </div>
     </>
