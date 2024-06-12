@@ -11,13 +11,13 @@ export const Bio = () => {
             fontUbuntu.variable
           )}
         >
-          After travelling the world and living in New Zealand and London, I
-          moved back to Sweden to study physiotherapy. During my studies I
-          worked in customer service where an interest for system developing
-          grew as I saw what impact the user experience of our applications had
-          on the customer satisfaction. My curiousity for the world of tech
-          outgrew my interest for physiotherapy, I discontinued my studies as a
-          physio and now here I am. I&apos;ve become a passionate frontend
+          After traveling the world and living in New Zealand and London, I
+          moved back to Sweden to study physiotherapy. During my studies, I
+          worked in customer service where an interest in system development
+          grew as I saw the impact the user experience of our applications had
+          on customer satisfaction. My curiosity for the world of tech outgrew
+          my interest in physiotherapy, so I discontinued my studies as a
+          physio, and now here I am. I&apos;ve become a passionate frontend
           developer ready to take on new adventures and challenges.
         </p>
       </div>
