@@ -65,7 +65,7 @@ export default function ProjectList({
                       fontUbuntu.variable
                     )}
                   >
-                    {/* <Link href={link}>Visit the app</Link> */}
+                    <Link href={link}>Visit the app</Link>
                     {github && <Link href={github}>Visit the github repo</Link>}
                   </div>
                 </div>
