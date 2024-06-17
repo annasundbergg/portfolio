@@ -3,6 +3,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { fontJost } from "@/lib/fonts";
 import Header from "./components/Header";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Anna",
@@ -28,6 +29,7 @@ export default function RootLayout({
           {children}
         </main>
       </body>
+      <GoogleAnalytics gaId="G-XC111C3L5M" />
     </html>
   );
 }
