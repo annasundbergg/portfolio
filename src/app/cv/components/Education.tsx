@@ -5,8 +5,6 @@ export const Education = () => {
   return (
     <>
       <div className="flex flex-col">
-        <hr className="h-2 bg-[#D55353] rounded sm:mb-12 md:mb-28" />
-
         <div className="">
           <h1
             className={cn(
@@ -18,12 +16,12 @@ export const Education = () => {
           </h1>
         </div>
         <div className="flex sm:mt-0 sm:flex-col sm:items-center md:flex-row md:mt-14">
-          <div className="sm:p-4 md:p-12 sm:pl-4 md:pl-20 2xl:pl-36 sm:w-full md:w-1/3 ">
+          <div className="sm:p-4 md:p-12 sm:pl-4 md:pl-20 md:pr-0 2xl:pl-36 sm:w-full lg:w-1/2 ">
             <h1 className="font-bold text-base">Frontend Developer</h1>
             <p>Grit Academy - Malmö</p>
             <p>2022 - 2024</p>
           </div>
-          <div className="flex flex-col gap-12 justify-center w-2/3 sm:w-full sm:pl-4">
+          <div className="flex flex-col justify-center w-2/3 sm:w-full sm:pl-4 md:pl-0">
             <p
               className={cn(
                 "font-serif text-[#967373] my-5",

@@ -10,7 +10,7 @@ export const Experience = () => {
         <div className="flex flex-col items-end sm:mr-2 md:mr-12 sm:pb-14 md:pb-32">
           <h1
             className={cn(
-              "font-mono sm:text-[30px] md:text-[60px] text-[#D55353] sm:mr-4 md:mr-12",
+              "font-mono sm:text-[30px] md:text-[60px] text-[#D55353] sm:mr-4 md:mr-[-25px]",
               fontTitanOne.variable
             )}
           >
@@ -29,7 +29,7 @@ export const Experience = () => {
                 Frontend Developer Intern
               </div>
               {/* JOB DESCRIPTION  */}
-              <div className="p-3 text-sm italic">
+              <div className="p-3 text-sm text-[#967373]">
                 Creating web applications independently and as part of a team
                 focusing on exploring the functionalities of Google Cloud
                 Platform. My tasks includes developing and integrating frontend
@@ -76,7 +76,7 @@ export const Experience = () => {
                 Advisor
               </div>
               {/* JOB DESCRIPTION  */}
-              <div className="p-3 text-sm italic">
+              <div className="p-3 text-sm text-[#967373]">
                 Assist customers by phone, e-mail and chat with queries
                 regarding energy solutions such as electricity grid, electricity
                 trading, solar panels, district heating as well as pricing and
@@ -102,7 +102,7 @@ export const Experience = () => {
                 CS Partner Specialist
               </div>
               {/* JOB DESCRIPTION  */}
-              <div className="p-3 text-sm italic">
+              <div className="p-3 text-sm text-[#967373]">
                 Manage property accounts on Booking.com. Assist Partners with
                 queries such as invoices, commercial improvements and optimizing
                 sales and visibility at Booking.com. Identify and detect
@@ -148,7 +148,7 @@ export const Experience = () => {
                 Barista
               </div>
               {/* JOB DESCRIPTION  */}
-              <div className="p-3 text-sm italic">
+              <div className="p-3 text-sm text-[#967373]">
                 Organise the shop and stock take consisting of various
                 Scandinavian products. Provide exceptional customer service,
                 maintaining the highest possible standard of food and drinks
@@ -174,7 +174,7 @@ export const Experience = () => {
                 Barista
               </div>
               {/* JOB DESCRIPTION  */}
-              <div className="p-3 text-sm italic">
+              <div className="p-3 text-sm text-[#967373]">
                 Consistently provide exceptional customer experience whilst
                 maintaining the highest possible standard of food and drinks
                 service. Some of the daily duties includes preparing gelato and

@@ -49,7 +49,7 @@ export const InfoBar = () => {
           </p>
         </div>
         <div className="flex justify-center items-center gap-2">
-          <div className="flex sm:gap-4 md:gap-16">
+          <div className="flex sm:gap-4 md:gap-4 lg:gap-12">
             <Link
               href={"https://linkedin.com/in/sundberganna"}
               className={cn("font-serif text-[#D55353]", fontUbuntu.variable)}
