@@ -21,7 +21,7 @@ export const skills = [
     "Adaptability",
     "Customer Service",
     "Customer Relationship Management",
-    "Team Collaboration",
+    "Teamwork",
     "Conflict Resolution",
     "Sales Optimization",
 ];
