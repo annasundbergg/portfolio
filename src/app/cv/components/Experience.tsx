@@ -216,7 +216,7 @@ export const Experience = () => {
             </div>
 
             {/* RIGHT */}
-            <div className="w-2/3">
+            <div className="w-2/3 m-auto">
               {/* JOB TITLE  */}
               <div className="bg-[#FBE7C9] p-3 font-semibold rounded-lg shadow-lg border-2 border-[#e7d1b1]">
                 Frontend Developer Intern
@@ -252,7 +252,7 @@ export const Experience = () => {
             </div>
 
             {/* RIGHT  */}
-            <div className="w-2/3">
+            <div className="w-2/3 m-auto">
               {/* JOB TITLE  */}
               <div className="bg-[#FBE7C9] p-3 font-semibold rounded-lg shadow-lg border-2 border-[#e7d1b1]">
                 Advisor
@@ -286,7 +286,7 @@ export const Experience = () => {
               </div>
             </div>
             {/* RIGHT */}
-            <div className="w-2/3">
+            <div className="w-2/3 m-auto">
               {/* JOB TITLE  */}
               <div className="bg-[#FBE7C9] p-3 font-semibold rounded-lg shadow-lg border-2 border-[#e7d1b1]">
                 CS Partner Specialist
@@ -321,7 +321,7 @@ export const Experience = () => {
             </div>
 
             {/* RIGHT  */}
-            <div className="w-2/3">
+            <div className="w-2/3 m-auto">
               {/* JOB TITLE  */}
               <div className="bg-[#FBE7C9] p-3 font-semibold rounded-lg shadow-lg border-2 border-[#e7d1b1]">
                 Barista
@@ -355,7 +355,7 @@ export const Experience = () => {
               </div>
             </div>
             {/* RIGHT */}
-            <div className="w-2/3">
+            <div className="w-2/3 m-auto">
               {/* JOB TITLE  */}
               <div className="bg-[#FBE7C9] p-3 font-semibold rounded-lg shadow-lg border-2 border-[#e7d1b1]">
                 Barista
