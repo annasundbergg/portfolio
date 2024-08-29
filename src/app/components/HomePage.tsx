@@ -8,8 +8,8 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <>
-      <div className="flex sm:overflow-hidden">
-        <div className="w-[auto] flex flex-col container ml-14 sm:ml-3 sm:gap-6 2xl:ml-[25rem]">
+      <div className="flex sm:overflow-hidden lg:overflow-visible lg:mx-12 xl:m-auto">
+        <div className="w-[auto] flex flex-col sm:gap-6 lg:gap-2 m-auto lg:mr-0">
           <div className="flex w-80">
             <h1
               className={cn(
@@ -50,14 +50,17 @@ export default function HomePage() {
               doing so
             </p>
             <div className="flex sm:gap-2 md:gap-4 -z-10">
-              <h1
-                className={cn(
-                  "font-serif text-[#D55353] my-5 sm:text-[20px] md:text-[40px]",
-                  fontUbuntu.variable
-                )}
-              >
-                Read more
-              </h1>
+              <Link href={"/cv"} className="">
+                <h1
+                  className={cn(
+                    "font-serif text-[#D55353] my-5 sm:text-[20px] md:text-[40px]",
+                    fontUbuntu.variable
+                  )}
+                >
+                  Read more
+                </h1>
+              </Link>
+
               <div className="place-self-center">
                 <Link href={"/cv"} className="">
                   <FontAwesomeIcon
@@ -71,9 +74,9 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="flex w-1/2 sm:hidden md:hidden lg:block">
+        <div className="flex p-8 sm:hidden lg:block">
           <Image
-            className="place-self-start rounded-[100px] ml-[130px] sm:w-[200px] sm:ml-[50px] md:w-[600px] xl:w-[590px]"
+            className="rounded-[100px] ml-[130px] sm:w-[200px] sm:ml-[50px] lg:w-96 xl:w-[590px]"
             src={"/annas.jpg"}
             width={600}
             height={600}
