@@ -207,7 +207,7 @@ export const Experience = () => {
           {/* EXPERIENCE LIST ITEM 1 */}
           <div className="flex justify-between sm:h-100 md:h-64">
             {/* LINE  */}
-            <div className="w-1/6 flex justify-center items-center -z-10">
+            <div className="w-1/6 flex justify-center items-center -z-10 mt-4">
               {/* LINE  */}
               <div className="w-1 h-full bg-[#D55353] rounded relative">
                 {/* LINE CIRCLE  */}

@@ -53,10 +53,22 @@ export const projectItems = [
             width: 600,
             height: 400
         },
-        skills: ["React", "Typescript", "Express.js", "Node.js", "GCP", "CI/CD"]
+        skills: ["React", "TypeScript", "Express.js", "Node.js", "GCP", "CI/CD", "Microsoft Entra ID"]
 
     },
-
+    {
+        title: "My Portfolio",
+        description: "This project is built with Next.js, Typescript and Tailwind. It is hosted on Google Cloud Platform.",
+        link: "https://annasundberg.se/",
+        github: "https://github.com/annasundbergg/portfolio",
+        image: {
+            src: "/portfolio.png",
+            alt: "image of project Portfolio",
+            width: 100,
+            height: 300
+        },
+        skills: ["Next.js", "Tailwind CSS", "TypeScript", "GCP", "Docker", "CI/CD"]
+    },
     {
         title: "Weather App",
         description: "A group project created to practise collaboration and version control. Our weather app shows current and future weather conditions for both the user's location and searched places worldwide. Utilizing the openweathermap API, it features responsive design, a graphical profile, mockup, GitHub documentation, Kanban board, visible code contributions, and a completed collaboration review survey.",
@@ -87,7 +99,7 @@ export const projectItems = [
     },
     {
         title: "Countries",
-        description: "The project, designed for learning API integration, JSON parsing, and asynchronous JavaScript with fetch and promises, utilizes REST Countries API version 3 (Restcountry v3). Upon user search for a language, it displays official name, capital, population, and flag image for matching countries, highlighting the one with the highest population.",
+        description: "The project is built with the purpuse of learning API integration, JSON parsing and asynchronous JavaScript with fetch and promises utilizing REST Countries API version 3. When searching for a language, it displays official name, capital, population, and flag image for matching countries, highlighting the one with the highest population.",
         link: "https://annasundbergg.github.io/fe22-js1-mp3-anna-sundberg/",
         github: "https://github.com/annasundbergg/fe22-js1-mp3-anna-sundberg",
         image: {
@@ -99,17 +111,17 @@ export const projectItems = [
         skills: ["RESTful API", "CSS", "JavaScript"]
     },
     {
-        title: "My Portfolio",
-        description: "This project is built with Next.js, Typescript and Tailwind. It is hosted on Google Cloud Platform.",
-        link: "https://annasundberg.se/",
-        github: "https://github.com/annasundbergg/portfolio",
+        title: "Rock Paper Scissors",
+        description: "This project is built with JavaScript, HTML and CSS. The purpose of the project was to practice object-oriented programming, using inheritance and encapsulation while also using modules.",
+        link: "https://annasundbergg.github.io/FE22-js2-mp1-anna-sundberg/",
+        github: "https://github.com/annasundbergg/FE22-js2-mp1-anna-sundberg",
         image: {
-            src: "/portfolio.png",
-            alt: "image of project Portfolio",
-            width: 100,
-            height: 300
+            src: "/rockpaperscissors.png",
+            alt: "image of project Rock, Paper, Scissors",
+            width: 600,
+            height: 400
         },
-        skills: ["Next.js", "Tailwind CSS", "Typescript", "Google Cloud Platform"]
+        skills: ["JavaScript", "HTML", "CSS", "OOP", "Modules", "Firebase"]
     },
 ];
 

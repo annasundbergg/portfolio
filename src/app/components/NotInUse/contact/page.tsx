@@ -1,7 +1,6 @@
 import { fontTitanOne } from "@/lib/fonts";
 import { MessageForm } from "./components/Form";
 import { cn } from "@/lib/utils";
-import Contact from "./components/contact";
 
 const ContactPage = () => {
   return (
@@ -16,8 +15,7 @@ const ContactPage = () => {
           CONTACT
         </p>
         <div className="sm:w-[300px] md:w-[500px] min-h-[300px] flex items-center justify-center">
-          <MessageForm></MessageForm>
-          {/* <Contact /> */}
+          <MessageForm />
         </div>
       </div>
     </>

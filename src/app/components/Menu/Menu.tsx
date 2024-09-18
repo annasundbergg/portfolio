@@ -1,15 +1,26 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { links } from "@/types/navbar";
 import { motion } from "framer-motion";
 
-const Header = () => {
+const Menu = () => {
   const [open, setOpen] = useState(false);
 
   function toggleMenu() {
     setOpen(!open);
   }
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
 
   const listVariants = {
     closed: {
@@ -79,4 +90,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Menu;

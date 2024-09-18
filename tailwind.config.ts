@@ -24,6 +24,10 @@ const config = {
       serif: [`var(--font-serif)`]
     },
     extend: {
+      colors: {
+        gradientOrange: '#FDE9D3',
+        gradientPink: '#FEEAE9',
+      },
       backgroundImage: {
         'my_bg_image': "url('/Pink-bg-profile.png')",
       },
