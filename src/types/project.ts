@@ -110,18 +110,18 @@ export const projectItems = [
         },
         skills: ["RESTful API", "CSS", "JavaScript"]
     },
-    {
-        title: "Rock Paper Scissors",
-        description: "This project is built with JavaScript, HTML and CSS. The purpose of the project was to practice object-oriented programming, using inheritance and encapsulation while also using modules.",
-        link: "https://annasundbergg.github.io/FE22-js2-mp1-anna-sundberg/",
-        github: "https://github.com/annasundbergg/FE22-js2-mp1-anna-sundberg",
-        image: {
-            src: "/rockpaperscissors.png",
-            alt: "image of project Rock, Paper, Scissors",
-            width: 600,
-            height: 400
-        },
-        skills: ["JavaScript", "HTML", "CSS", "OOP", "Modules", "Firebase"]
-    },
+    // {
+    //     title: "Rock Paper Scissors",
+    //     description: "This project is built with JavaScript, HTML and CSS. The purpose of the project was to practice object-oriented programming, using inheritance and encapsulation while also using modules.",
+    //     link: "https://annasundbergg.github.io/FE22-js2-mp1-anna-sundberg/",
+    //     github: "https://github.com/annasundbergg/FE22-js2-mp1-anna-sundberg",
+    //     image: {
+    //         src: "/rockpaperscissors.png",
+    //         alt: "image of project Rock, Paper, Scissors",
+    //         width: 600,
+    //         height: 400
+    //     },
+    //     skills: ["JavaScript", "HTML", "CSS", "OOP", "Modules", "Firebase"]
+    // },
 ];
 
