@@ -8,7 +8,7 @@ export const CVHeader = () => {
       <div className="flex w-1/2 mb-6 p-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 justify-center items-center sm:gap-4 md:gap-8 lg:gap-24">
         <h1
           className={cn(
-            "font-mono sm:text-[30px] text-[#D55353] mt-8 sm:leading-[30px] md:text-[70px] md:leading-[65px] lg:text-[90px]",
+            "font-mono sm:text-[30px] text-[#D55353] mt-8 sm:leading-[30px] md:text-[70px] md:leading-[65px] lg:text-[90px] lg:leading-[75px]",
             fontTitanOne.variable
           )}
         >
