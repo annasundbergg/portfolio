@@ -6,7 +6,7 @@ export const Skills = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="flex items-start h-[20rem]">
+        <div className="flex items-start h-80">
           <div>
             <h1
               className={cn(
@@ -18,10 +18,11 @@ export const Skills = () => {
             </h1>
           </div>
           {/* SKILL LIST */}
-          <div className="flex flex-wrap relative -z-10 m-auto sm:gap-1 md:gap-4 md:h-6 sm:w-3/4 md:w-full h-[200px] md:m-0">
+          <div className="flex flex-wrap relative -z-10 m-auto sm:gap-1 md:gap-4 md:h-6 sm:w-3/4 md:w-full md:mt-10">
             {skills.map((skill) => (
               <div
                 key={skill}
+                //den mesta stylingen här fungerar inte pga z-index på parent element, men tar jag bort det så fungerar inte menyn som den ska
                 className="rounded sm:p-1 sm:text-[10px] md:text-sm md:p-2 cursor-pointer bg-[#D55353] text-orange-100 hover:bg-orange-100 hover:text-[#D55353]"
               >
                 {skill}
@@ -29,7 +30,7 @@ export const Skills = () => {
             ))}
           </div>
         </div>
-        <hr className="h-2 bg-[#D55353] rounded sm:mt-4 md:mt-28" />
+        <hr className="h-2 bg-[#D55353] rounded sm:mt-4 md:mt-20" />
       </div>
     </>
   );
