@@ -17,13 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta
-        name="theme-color"
-        content="bg-gradient-to-tl from-orange-100 via-pink-50 to-orange-100"
-      />
       <body
         className={cn(
-          "font-sans min-h-screen flex flex-col bg-gradient-to-tl from-orange-100 via-pink-50 to-orange-100",
+          "font-sans min-h-screen flex flex-col bg-gradient-to-tl from-orange-100 via-pink-50 to-orange-100 mt-1",
           fontJost.variable
         )}
       >
