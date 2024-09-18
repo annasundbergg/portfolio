@@ -7,7 +7,7 @@ export const Skills = () => {
     <>
       <div className="flex flex-col">
         <div className="flex items-start h-80">
-          <div>
+          <div className="mt-10">
             <h1
               className={cn(
                 "-rotate-90 font-mono text-[40px] text-[#D55353] ml-[-40px] sm:mt-20 md:mt-14 leading-[90px] md:text-[60px]",
