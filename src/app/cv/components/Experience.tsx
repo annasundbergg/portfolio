@@ -75,7 +75,7 @@ export const Experience = () => {
               </div>
               {/* DATES  */}
               <div className="p-3 text-[#D55353] text-sm font-semibold">
-                December 2023 - current
+                December 2023 - September 2024
               </div>
               {/* COMPANY  */}
               <div className="px-3 py-1 rounded bg-[#FBE7C9] text-sm font-semibold w-fit">
