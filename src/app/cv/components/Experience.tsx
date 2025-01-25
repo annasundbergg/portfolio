@@ -20,6 +20,43 @@ export const Experience = () => {
 
         {/* EXPERIENCE LIST LARGE SCREEN */}
         <div className="sm:hidden md:block">
+          {/* EXPERIENCE LIST ITEM 0 */}
+          <div className="flex justify-between sm:h-100 md:h-64">
+            {/* LEFT */}
+            <div className="w-1/2"></div>
+            {/* CENTER  */}
+            <div className="w-1/6 flex justify-center items-center -z-10">
+              {/* LINE  */}
+              <div className="w-1 h-full bg-[#D55353] rounded relative">
+                {/* LINE CIRCLE  */}
+                <div className="absolute w-5 h-5 rounded-full ring-4 ring-[#D55353]  bg-white -left-2"></div>
+              </div>
+            </div>
+            {/* RIGHT  */}
+            <div className="w-1/2">
+              {/* JOB TITLE  */}
+              <div className="bg-[#FBE7C9] p-3 font-semibold rounded-lg shadow-lg border-2 border-[#e7d1b1]">
+                Frontend Engineer
+              </div>
+              {/* JOB DESCRIPTION  */}
+              <div className="p-3 text-sm text-[#967373]">
+                Using Typescript, React and GraphQL to build and enhance our
+                Early Childhood platform to make life easier for educators and
+                families. We create intuitive features that simplify childcare
+                management, improve communication, and support the vital work of
+                early childhood professionals.
+              </div>
+              {/* DATES  */}
+              <div className="p-3 text-[#D55353] text-sm font-semibold">
+                October 2024 - current
+              </div>
+              {/* COMPANY  */}
+              <div className="px-3 py-1 rounded bg-[#FBE7C9] text-sm font-semibold w-fit">
+                Famly, Copenhagen
+              </div>
+            </div>
+          </div>
+
           {/* EXPERIENCE LIST ITEM 1 */}
           <div className="flex justify-between sm:h-100 md:h-64">
             {/* LEFT */}
